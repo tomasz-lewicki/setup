@@ -1,4 +1,4 @@
-# Apt 
+# Apt
 sudo apt install git -y &&
 sudo apt install curl -y &&
 sudo apt install htop -y &&
@@ -15,7 +15,10 @@ sudo apt-get install libjpeg-dev -y; # Pillow
 # Shell setup
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # Installs omyzsh
+
+if [$SHELL != $(which zsh)]; then
 chsh -s $(which zsh)
+fi
 
 
 # Python prerequisites
