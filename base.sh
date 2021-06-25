@@ -23,5 +23,8 @@ fi
 
 # Python prerequisites
 pip3 install Cython
-
 pip3 install -r requirements.txt
+
+
+echo "export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH" >> ~/.zshrc
+
