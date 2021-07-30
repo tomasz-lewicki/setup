@@ -4,6 +4,8 @@ sudo apt-get update;
 sudo apt-get upgrade;
 sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg -y;
 sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
+sudo apt-get install vim -y;
+
 
 # Shell setup
 sudo apt-get install zsh -y;
