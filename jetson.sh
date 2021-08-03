@@ -14,3 +14,6 @@ git clone --branch release/0.10 https://github.com/pytorch/vision torchvision   
 cd torchvision
 export BUILD_VERSION=0.10.0  # where 0.x.0 is the torchvision version
 python3 setup.py install --user
+
+
+sudo groupadd docker
