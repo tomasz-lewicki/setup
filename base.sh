@@ -16,6 +16,9 @@ chsh -s $(which zsh)
 fi
 
 
+# Setup vim
+wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/.vimrc\?token\=AGHK36TT5WO65E4KQPF3S2DBG2GH4 -O  ~/.vimc
+
 # Python prerequisites
 pip3 install Cython
 pip3 install -r requirements.txt
