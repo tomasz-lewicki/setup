@@ -5,7 +5,7 @@ sudo apt-get upgrade;
 
 install_utils()
 {
-    sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg vim curl tmux -y;
+    sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg vim curl tmux htop -y;
 }
 
 setup_shell()
