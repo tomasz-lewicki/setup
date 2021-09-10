@@ -1,11 +1,11 @@
 # Apt
 
 sudo apt-get update;
-sudo apt-get upgrade;
+# sudo apt-get upgrade;
 
 install_utils()
 {
-    sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg vim curl tmux htop -y;
+    sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg vim curl tmux htop python3-pip -y;
 }
 
 setup_shell()
@@ -28,7 +28,8 @@ setup_vim()
 
 setup_git()
 {
-    git config --global user.email "t.w.lewicki@gmail.com" && git config --global user.name "Tomasz Lewicki"
+    git config --global user.email "t.w.lewicki@gmail.com";
+    git config --global user.name "Tomasz Lewicki";
 }
 
 setup_python()
@@ -40,4 +41,8 @@ setup_python()
 # Not sure what needs this (pytorch?)
 sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
 
-
+install_utils;
+setup_vim;
+setup_git;
+setup_python;
+setup_shell;
