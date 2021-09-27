@@ -34,6 +34,7 @@ setup_git()
 
 setup_python()
 {
+    pip3 install --upgrade pip
     pip3 install Cython
     pip3 install -r requirements.txt
 }
@@ -44,5 +45,5 @@ sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
 install_utils;
 setup_vim;
 setup_git;
-setup_python;
 setup_shell;
+setup_python;
