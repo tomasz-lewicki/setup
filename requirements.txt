@@ -1,6 +1,6 @@
 Cython
 numpy
-pandas
+# pandas
 matplotlib
 jupyter
 Pillow
