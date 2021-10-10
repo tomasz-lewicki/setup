@@ -22,7 +22,7 @@ setup_shell()
 
 setup_vim()
 {
-    wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/.vimrc\?token\=AGHK36TT5WO65E4KQPF3S2DBG2GH4 -O  ~/.vimc
+    wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/.vimrc\?token\=AGHK36TT5WO65E4KQPF3S2DBG2GH4 -O  ~/.vimrc
 }
 
 
@@ -46,5 +46,5 @@ sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
 install_utils;
 setup_vim;
 setup_git;
-setup_shell;
 setup_python;
+setup_shell
