@@ -10,21 +10,22 @@ install_utils()
 
 setup_shell()
 {
+    # zsh + ohmyzsh
     sudo apt-get install zsh -y;
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # Installs omyzsh
 
     if [$SHELL != $(which zsh)]; then
     chsh -s $(which zsh)
     fi
-    # for some reason these aren't in default zsh PATH
+
+    # $PATH
     echo "export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH" >> ~/.zshrc
-}
 
-setup_vim()
-{
-    wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/.vimrc\?token\=AGHK36TT5WO65E4KQPF3S2DBG2GH4 -O  ~/.vimrc
-}
+    # vim config
+    cp -r dotfiles/.vimrc ~/.vimrc
 
+    # tmux config
+    cp -r dotfiles/.tmux.conf ~/.tmux.conf
 
 setup_git()
 {
@@ -42,10 +43,10 @@ setup_python()
 }
 
 # Not sure what needs this (pytorch?)
-sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
+# sudo apt-get install libjpeg-dev libcanberra-dev libffi-dev -y;
 
-install_utils;
+# install_utils;
 setup_vim;
 setup_git;
-setup_python;
+# setup_python;
 setup_shell
