@@ -29,10 +29,8 @@ setup_shell()
 
 setup_git()
 {
-    git config --global user.email "t.w.lewicki@gmail.com";
-    git config --global user.name "Tomasz Lewicki";
-    git config --global pull.ff only;
-    git config --global init.defaultBranch main;
+    git config --global user.email "t.w.lewicki@gmail.com"; git config --global user.name "Tomasz Lewicki";
+    git config --global pull.ff only; git config --global init.defaultBranch main;
 }
 
 setup_python()
