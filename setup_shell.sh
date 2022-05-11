@@ -6,11 +6,11 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # 2. Install omyzsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 
 # 3. Change shell if necessary
 if [[ $SHELL != "$(which zsh)" ]]; then
-    chsh -s "$(which zsh)"
+    chsh -s "$(which zsh)";
 fi
 
 # 4. Append $PATH

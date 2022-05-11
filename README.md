@@ -24,5 +24,6 @@ https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
 
 ## Attempt to make it one-liner (wip)
 ```shell
-wget -q -O - "https://raw.githubusercontent.com/tomek-l/setup/master/setup_shell.sh?token=GHSAT0AAAAAABQ45XXMRZQXPICBMSMVULZEYT35SOQ" | bash
+wget -q -O - "https://raw.githubusercontent.com/tomek-l/setup/master/setup_shell.sh?token=GHSAT0AAAAAABQ45XXMY3QIEZ3GQODAIQSIYT36ABA" | bash
 ```
+https://raw.githubusercontent.com/tomek-l/setup/master/setup_shell.sh?token=GHSAT0AAAAAABQ45XXM6CU73ALAJ2ZLRNVIYT35YEQ
