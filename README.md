@@ -22,7 +22,9 @@ https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
 https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
 
 
-## Attempt to make it one-liner (wip)
+## Shell
 ```shell
-wget -q -O - "https://raw.githubusercontent.com/tomek-l/setup/master/setup_shell.sh?token=GHSAT0AAAAAABQ45XXMTXLVO3LTH7NMJFOSYT36C4A" | bash
+sudo apt-get install zsh -y; # for ubuntu
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+chsh -s "$(which zsh)"; # if needed
 ```
