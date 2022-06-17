@@ -1,6 +1,18 @@
 # Setup
 
 
+## Shell
+```shell
+sudo apt-get install zsh -y; # for ubuntu
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+chsh -s "$(which zsh)"; # if needed
+```
+
+## Dotfiles
+```shell
+wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/copy-dotfiles.sh -O /tmp/copy-dotfiles.sh
+bash /tmp/copy-dotfiles.sh
+```
 
 
 ## Github Keys
@@ -20,17 +32,3 @@ https://github.com/settings/keys
 
 https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
 https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
-
-
-## Shell
-```shell
-sudo apt-get install zsh -y; # for ubuntu
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
-chsh -s "$(which zsh)"; # if needed
-```
-
-## Dotfiles
-```shell
-wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/copy-dotfiles.sh -O /tmp/copy-dotfiles.sh
-bash /tmp/copy-dotfiles.sh
-```
