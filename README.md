@@ -14,6 +14,11 @@ wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/copy-dotfiles.sh 
 bash /tmp/copy-dotfiles.sh
 ```
 
+## Dev utilities
+```shell
+sudo apt-get install git gparted python3-dev net-tools nmap tree ffmpeg vim curl tmux htop python3-pip -y;
+```
+
 
 ## Github Keys
 
