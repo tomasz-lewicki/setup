@@ -9,9 +9,9 @@ chsh -s "$(which zsh)"; # if needed
 ```
 
 ## Dotfiles
+Install dotfiles via:
 ```shell
-wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/copy-dotfiles.sh -O /tmp/copy-dotfiles.sh
-bash /tmp/copy-dotfiles.sh
+wget https://raw.githubusercontent.com/tomek-l/dotfiles/master/copy-dotfiles.sh -O /tmp/copy-dotfiles.sh && bash /tmp/copy-dotfiles.sh
 ```
 
 ## Dev utilities
